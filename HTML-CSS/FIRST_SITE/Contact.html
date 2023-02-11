@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <title> Truffin Cassandre 🌖 </title>
+</head>
+<body>
+    <header>
+    <span id="website-title">Cassandre Truffin</span>
+    <br>
+    <span class="citation"> ⭐Je ne veux pas paraître prétentieuse mais... je sais construire des jouets Kinder sans la notice ET créer des sites internet ⭐ </span>
+    <br>
+    <br>
+    <ul>
+        <nav>
+            <ul class="ma-classe">
+              <li><a href="./index.html">Accueil</a></li>
+              <li><a href="./MesTravaux.html">Mes travaux</a></li>
+              <li><a href="./MonCv.html">Mon CV</a></li>
+              <li><a href="./Contact.html">Me contacter</a></li>
+        </nav>
+        <br>
+        <h4> Pour un petit moment d'échange et pour les demandes, c'est par ici ♡ </h4>
+    </nav>            
+    </ul>
+    </header>
+  <main>
+    <form action="mailto:a@b.com" method="post">
+      <fieldset>
+        <legend> Parlez-moi de vous ?</legend>
+        <div class="form-item">
+          <label for="lastname">Nom : </label>
+          <input type="text" name="lastname" id="lastname" placeholder="Veuillez taper votre nom" required>
+        </div>
+
+        <div class="form-item">
+          <label for="firstname">Prénom : </label>
+          <input type="text" name="firstname" id="firstname" placeholder="Veuillez taper votre prénom" required>
+        </div>
+
+        <div class="form-item">
+          <label for="birthDate">Date de naissance : </label>
+          <input type="date" name="birthDate" id="birthDate" placeholder="Veuillez taper votre nom" required min="1923-12-06" max="2022-12-07">
+        </div>
+
+        <div class="form-item">
+          <label> Genre : </label>
+          <input type="radio" name="gender" id="genderMale" value="male">
+          <label for="genderMale">Homme</label>
+          <input type="radio" name="gender" id="genderFemale" value="female">
+          <label for="genderFemale">Femme</label>
+          <input type="radio" name="gender" id="genderFemale" value="female">
+          <label for="genderFemale">Ne souhaite pas répondre</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Quelle est la raison de votre demande ?</legend>
+        <div class="form-item">
+          <label for="ask"> Création d'un site internet ? </label>
+          <input type="checkbox" name="ask" id="ask">
+          <label for="ask"> Création d'une chartre graphique ? </label>
+          <input type="checkbox" name="ask" id="ask">
+          <label for="ask">Création d'un logo ? </label>
+          <input type="checkbox" name="ask" id="ask">
+          <label for="ask"> Besoin d'assistance ? </label>
+          <input type="checkbox" name="ask" id="ask">
+          
+        </div>
+        <div class="form-item">
+          <label for="problemType">Type de problème : </label>
+          <select name="problemType" id="problemType">
+            <option value="reclamation">Je souhaite faire une réclamation</option>
+            <option value="facture">Je n'ai pas reçu ma facture</option>
+            <option value="password">Je souhaite dormir parce que je suis très fatiguée  </option>
+            
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Merci de me faire part de votre demande ci-dessous : </legend>
+        <label for="notes">Notes :</label> <br>
+        <textarea name="notes" id="notes"></textarea>
+      </fieldset>
+      <button id="submit-button">Envoyer ma question</button>
+    </form>
+  </main>
+</body>
+</html>

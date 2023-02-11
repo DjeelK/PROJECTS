@@ -1,0 +1,250 @@
+body {
+    background-color: #FAECE6;
+    color: black;
+}
+
+header {
+    text-align: center;
+    
+}
+
+#website-title {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 2.5rem;
+    
+
+}
+nav {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.5rem;
+        
+}
+
+h3 {
+    
+    font-family:'Sue Ellen Francisco', cursive;
+    font-size: 1.5rem;
+}
+
+.ma-classe {
+    background-color: #956C63;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav ul li:hover {
+    transform: scale(1.05);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
+
+#travailpc {
+    width: 30rem;
+    height: 40rem;
+    border-radius: 2rem;
+    display: block;
+    margin: 4rem 1rem 4rem auto;
+    margin-left: 12rem ;
+    display:inline-block;
+} 
+
+#photocafe {
+    width: 30rem;
+    height: 40rem;
+    top:auto;
+    border-radius: 2rem;
+    display: block;
+    margin: 4rem 1rem 4rem auto;
+    display:inline-block;
+} 
+
+#codepc {
+    width: 30rem;
+    height: 40rem;
+    top:auto;
+    border-radius: 2rem;
+    display: block;
+    margin: 4rem 1rem 4rem auto;
+    display:inline-block;
+} 
+
+#submit-button {
+    display: block;
+    margin: auto;
+    border: 0.2rem solid rgba(136, 60, 37, 0.507);
+    padding: 0.2rem 0.5rem;
+    background-color: rgb(124, 94, 94);
+    color: white;
+    border-radius: 9999999px;
+    transition: all 100ms;
+}
+
+#submit-button:hover {
+    transform: scale(1.05);
+    border: 0.05rem solid transparent;
+    background-color: black;
+    color: white;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #7e5336;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin: 0 0 1rem;
+}
+
+h1{
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.text-color1{
+    color: #8b543a;
+}
+
+
+
+.text-uppercase{
+    text-transform: uppercase; 
+}
+
+.icon{
+    margin-right: .5rem;
+}
+
+.cv-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 1300px;
+    margin: 100px auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.section{
+    margin-bottom: 1.5rem;
+}
+
+
+.left-column{
+    grid-area: left-column;
+    padding: 50px;
+    background-color: #a55446;
+    color: white;
+}
+
+.portait{
+    border-radius: 5%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.skills{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+}
+
+
+.right-column{
+    grid-area: right-column;
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    grid-template-areas: 
+    "header"
+    "content";
+}
+
+.header{
+    grid-area: header;
+    padding: 50px;
+    background-color: #eebfb0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textexperience1 {
+    margin: 3rem;
+}
+
+.content{
+    grid-area: content;
+    padding: 50px;
+}
+
+.infos{
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-list{
+    list-style-type: circle;
+}
+
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.citation {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    size: 20px;
+    
+}
+
+#fleur {
+
+width: 250px;
+
+}
