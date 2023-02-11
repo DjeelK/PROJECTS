@@ -1,0 +1,23 @@
+#bg-todo {
+    background-color:#F9C9C4;
+
+}
+
+#button-submit,#button-submit-search {
+    background-color: #f35648 ;
+    color: azure;
+}
+
+hr {
+    background-color:#ffffff; 
+    border-top: #ffffff 0.5rem solid;
+}
+
+#titre1{
+    color: #e83b2c;
+}
+
+.list-items{
+    color:#ffffff;
+    background-color:rgba(159, 187, 240, 0.591);
+}
